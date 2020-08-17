@@ -1,0 +1,10 @@
+# Factory Design Pattern
+
+1.Does not expose instantiation or creation logic.
+2.Subclasses creates the object.
+3.Common Abstract/Interface.
+4.The framework ,the client uses the factories to get object.
+
+# Implementation:
+1. Define a factory method inside an interface.
+2. Let the subclass implements the above factory method and decide which object to create.
