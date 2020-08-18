@@ -2,6 +2,8 @@ package io.javalab.SingletonDesignPattern;
 
 import java.io.Serializable;
 
+// implementation of Serializable,Cloneable is for violation test cases;
+
 public class Singleton implements Serializable,Cloneable {
 
     private static Singleton onlyInstance=new Singleton();
