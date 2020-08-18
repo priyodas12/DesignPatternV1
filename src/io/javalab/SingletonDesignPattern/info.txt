@@ -1,0 +1,10 @@
+#When we should go for singleton?
+
+Ensure that a class has only one instance and provide a global point of access to it.
+
+Implementation:
+
+1.make sure there is only one instance -make constructor private and let the class manages it.
+
+2.private global end point to get the object.
+
