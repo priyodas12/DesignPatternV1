@@ -2,4 +2,7 @@
 
 1.It eliminates the (potentially expensive) overhead of initializing an object
 
-2.It simplifies and can optimize the use case where multiple objects of the same type will have mostly the same data
+2.It simplifies and can optimize
+ the use case where multiple objects of the same type will have mostly the same data
+
+3.Original object remain unaltered, we can use clone object for usecase.
