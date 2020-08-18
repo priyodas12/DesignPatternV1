@@ -1,6 +1,8 @@
 package io.javalab.SingletonDesignPattern;
 
-public class Singleton {
+import java.io.Serializable;
+
+public class Singleton implements Serializable {
 
     private static Singleton onlyInstance=new Singleton();
 

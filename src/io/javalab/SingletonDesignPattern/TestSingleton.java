@@ -11,6 +11,5 @@ public class TestSingleton {
 
         System.out.println("singleton1.equals(singleton2)="+singleton1.equals(singleton2));
         System.out.println(singleton1.hashCode()+","+singleton2.hashCode());
-
     }
 }

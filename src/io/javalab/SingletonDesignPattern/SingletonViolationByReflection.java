@@ -9,9 +9,6 @@ public class SingletonViolationByReflection {
 
         Singleton singleton1=Singleton.getOnlyInstance();
 
-        System.out.println("singleton1.equals(singleton2)="+singleton1.equals(singleton1));
-        System.out.println(singleton1.hashCode()+","+singleton1.hashCode());
-
         //reflection
         Class c=Class.forName("io.javalab.SingletonDesignPattern.Singleton");
 
