@@ -1,4 +1,4 @@
-package io.javalab.FactoryPattern;
+package io.javalab.FactoryDesignPattern;
 
 public class LinuxEC2 implements EC2Lunch{
 

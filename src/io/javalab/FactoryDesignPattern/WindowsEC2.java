@@ -1,4 +1,4 @@
-package io.javalab.FactoryPattern;
+package io.javalab.FactoryDesignPattern;
 
 public class WindowsEC2 implements EC2Lunch {
 

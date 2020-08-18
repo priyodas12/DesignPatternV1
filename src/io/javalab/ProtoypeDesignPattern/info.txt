@@ -1,0 +1,5 @@
+# why we need Prototype Design Pattern?
+
+1.It eliminates the (potentially expensive) overhead of initializing an object
+
+2.It simplifies and can optimize the use case where multiple objects of the same type will have mostly the same data

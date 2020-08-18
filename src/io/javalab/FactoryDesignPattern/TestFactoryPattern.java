@@ -1,4 +1,4 @@
-package io.javalab.FactoryPattern;
+package io.javalab.FactoryDesignPattern;
 
 public class TestFactoryPattern {
     public static void main(String[] args) {
