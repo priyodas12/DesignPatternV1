@@ -2,7 +2,7 @@ package io.javalab.SingletonDesignPattern;
 
 import java.io.Serializable;
 
-public class Singleton implements Serializable {
+public class Singleton implements Serializable,Cloneable {
 
     private static Singleton onlyInstance=new Singleton();
 
@@ -22,5 +22,10 @@ public class Singleton implements Serializable {
     @Override
     public boolean equals(Object obj) {
         return super.equals(obj);
+    }
+
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+        return super.clone();
     }
 }
