@@ -12,19 +12,5 @@ public class TestSingleton {
         System.out.println("singleton1.equals(singleton2)="+singleton1.equals(singleton2));
         System.out.println(singleton1.hashCode()+","+singleton2.hashCode());
 
-        //reflection
-        Class c=Class.forName("io.javalab.SingletonDesignPattern.Singleton");
-
-        Constructor<Singleton> cons= c.getDeclaredConstructor();
-
-        //violating the encapsulation rule
-        cons.setAccessible(true);
-
-        Singleton singleton3=cons.newInstance();
-
-        System.out.println("singleton1.equals(singleton3)="+singleton1.equals(singleton3));
-        System.out.println(singleton1.hashCode()+","+singleton3.hashCode());
-
-
     }
 }
